@@ -1,0 +1,92 @@
+.texto{color: #FFFFFF; font-size: 26px; margin-left:10px; font-family:Verdana; margin-top:10px;}
+.link{color: #FFFFFF; font-size: 14px; margin-left:1000px; font-family:Verdana; margin-top:10px;}
+	
+	
+body {
+  background-color: #FFFFFF;
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+}
+
+#menu{
+background:#FD4141 ;
+color:#fff;
+padding:5px;
+ width : 1270px;
+}
+
+#menu ul{
+padding:0px;
+margin:0px;
+list-style:none;
+
+}
+
+
+#menu ul li{
+float:left;
+
+
+}
+
+#menu ul li a{
+color:#000000;
+background:#FFE5CC;
+padding:10px;
+display:block;
+text-decoration:none;
+transition:background-color 1s, color 1s, border-bottom 1s;
+transition-timing-function:ease-out;
+width : 90px;
+}
+
+#menu ul li a:hover{
+background:#FFFFFF;
+color:#000000;
+}
+
+#menu ul li ul{
+position:absolute;
+height:0px;
+overflow:hidden;
+}
+
+#menu ul li ul li{
+float:none;
+}
+
+#menu ul li:hover ul{
+overflow:visible;
+}
+
+#menu ul li:hover ul li a{
+padding:10px;
+}
+
+#menu ul li ul li a{
+-webkit-transition:0.3s;
+padding:0px 10px;
+
+}
+
+.clear{
+clear:both;
+}
+
+
+.label.label{
+display: inline-block;
+width: 90px;}				
+		
+		.caixa {border: 1px solid #f1fff; 
+				width: 250px;
+				font: 100% verdana ; 
+				border-radius: 5px; 						/* CANTO ARREDONDADO */
+				margin: 2px; 
+				padding: 3px;} 
+				
+		.botao {border: 1px solid #FD4141; 
+				width: 120px;
+				margin-left: 45px;
+				font: 100% verdana ; 
+				border-radius: 5px; 						/* CANTO ARREDONDADO */
+				padding: 3px;} 
